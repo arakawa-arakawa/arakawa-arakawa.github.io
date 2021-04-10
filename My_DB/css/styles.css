@@ -1,0 +1,134 @@
+html{
+  user-select: none;
+  margin:40px;
+  background-color: rgb(221, 221, 221);
+  font-family: "Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+  
+
+}
+
+header{
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-align: center;
+  border:4px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+  box-shadow:10px 5px rgb(240, 240, 240);
+  text-shadow: 3px 7px rgb(240, 240, 240);
+  cursor: pointer;
+}
+
+header:hover{
+  
+}
+
+
+
+
+@media (max-width: 360px) {
+
+  html{
+    /* text-align: center;
+    margin:50px; */
+  }
+
+  header{
+    width:250px;
+    font-size: 30px;
+    display: block;
+    margin:none;
+  }
+
+  h1{
+    width:30px;
+    font-size:20px;
+    margin-left: 20px;
+    margin-top: 0px;
+    border:2px solid rgb(8, 8, 8);
+    border-radius: 5px;
+    text-align: center;
+    padding:(4,0,2,0);
+  }
+
+  ul{
+    width:100px;
+    text-align: left;
+  }
+}
+
+
+@media (min-width: 800px) {
+  html{
+
+  }
+  
+}
+
+
+
+h1 {
+  color:black;
+  font-weight: bold;
+  margin-left: 20px;
+  border:2px solid rgb(8, 8, 8);
+  border-radius: 5px;
+  width:200px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding:(4,0,2,0);
+}
+
+ul{
+  margin-left: 20px;
+  width:200px;
+  text-align: left;
+  color: rgb(0, 0, 0);
+}
+
+
+
+
+
+.aaa {
+  font-weight: bold;
+  text-decoration: none;
+  list-style-type: circle;
+  user-select: none;
+  margin:10px;
+  width: 150px;
+}
+
+.aaa:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.btn{
+  color: blue;
+  background-color: chartreuse;
+  border:1px solid chocolate;
+  border-radius: 4px;
+  display: inline-block;
+}
+.btn:hover {
+  background: hsl(54, 93%, 39%);
+  user-select: none;
+  cursor: pointer;
+  transform: translate(300px,0px);
+}
+
+button{
+  color:black;
+  background-color:skyblue;
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+}
